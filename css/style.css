@@ -21,6 +21,40 @@
     background-color: yellow;
 }
 
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float-right {
+    float: right;
+}
+
+.choices {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.choices li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: center;
+    margin: 30px 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.choices a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
 .item {
     width: fit-content;
     text-align: center;
