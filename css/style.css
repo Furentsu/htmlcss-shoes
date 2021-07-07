@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 
+/* Background settings */
+
 .bg {
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
 }
 
@@ -21,6 +23,8 @@
     background-color: yellow;
 }
 
+/* Navbar section */
+
 .clearfix {
     content: '';
     display: table;
@@ -31,32 +35,33 @@
     float: right;
 }
 
-.choices {
+.nav-menu {
     width: 100%;
     position: fixed;
     z-index: 1;
 }
 
-.choices li {
+.nav-menu li {
     display: inline-block;
     width: 50px;
     height: 50px;
     text-align: center;
     line-height: 50px;
-    vertical-align: center;
     margin: 30px 10px;
     border-radius: 50%;
-    border: 1px solid black;
     background-color: white;
 }
 
-.choices a {
+.nav-menu a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
 }
 
+/* Single item section */
+
 .item {
-    width: fit-content;
+    width: 50vw;
+    height: 50vh;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -65,6 +70,10 @@
 }
 
 .item h2 {
-    font-size: 48px;
+    font-size: 2.8em;
     font-family: 'Yomogi', cursive;
+}
+
+.item img {
+    width: 80%;
 }
